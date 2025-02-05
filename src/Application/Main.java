@@ -20,9 +20,18 @@ switch (manager.getOptionSelected()){
     break;
     case 4: manager.DisplayEmployees();
     break;
+    case 5: manager.findEmployee();
+    break;
+    case 6: manager.CalculateSalary();
+    break;
+case 7: manager.sortEmployees();
+break;
+case 8:
+    System.out.println("Exit");
+    break;
 }
 
 }
-while ( true);
+while ( manager.getOptionSelected() != 8);
     }
 }
