@@ -145,7 +145,7 @@ public void CalculateSalary(){
 
             totalSalary+=employe[i].getEmpSalary();
 
-
+        System.out.println("Total Salary: "+totalSalary);
     }
 }
     public void sortEmployees() {
